@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Series Recommendations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Web Series Recommendations</h1> <!-- Capitalize 'Web' for consistency -->
+  </header>
+
+  <main>
+    <section class="selector">
+      <label for="genre">Choose a Genre:</label>
+      <select id="genre" name="genre"> <!-- Added 'name' attribute -->
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="scifi">Sci-Fi</option>
+        <option value="thriller">Thriller</option>
+      </select>
+      <button type="button" onclick="getRecommendation()">Get Recommendations</button>
+    </section>
+
+    <section id="recommendation" class="recommendation-list">
+      <!-- Series cards will appear here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
