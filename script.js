@@ -16,7 +16,7 @@ const recommendations = {
       },
       {
         name: "The last of us",
-        image: "images/The last of us.jpeg",
+        image: "images/The last of us.jpg",
         link: "https://www.hotstar.com/in/shows/the-last-of-us/1971002868",
         rating: 8.7,
         platform: "Hotstar"
@@ -176,39 +176,116 @@ const recommendations = {
     scifi: [
       {
         name: "Stranger Things",
-        image: "images/Stranger things.jpg",
+        image: "images/Stranger things.jpeg",
         link: "https://www.netflix.com/title/80057281",
         rating: 8.7,
         platform: "Netflix"
       },
       {
         name: "Dark",
-        image: "images/Dark.jpg",
+        image: "images/Dark.jpeg",
         link: "https://www.netflix.com/title/80100172",
         rating: 8.8,
         platform: "Netflix"
       },
       {
         name: "Loki",
-        image: "images/Loki.jpg",
+        image: "images/Loki.jpeg",
         link: "https://www.hotstar.com/in/shows/loki/1260063451",
         rating: 8.3,
+        platform: "Hotstar"
+      },
+      {
+        name: "Black mirror",
+        image: "images/Black mirror.jpeg",
+        link: "https://www.netflix.com/in/title/70264888?source=35",
+        rating: 8.7,
+        platform: "Netflix"
+      },
+      {
+        name: "From",
+        image: "images/From.jpeg",
+        link: "https://www.primevideo.com/dp/amzn1.dv.gti.9560cdb4-6148-4a0b-85ca-895faba38c09?autoplay=0&ref_=atv_cf_strg_wb",
+        rating: 7.8,
+        platform: "Prime video"
+      },
+      {
+        name: "3 Body problem",
+        image: "images/3 Body problem.jpeg",
+        link: "https://www.netflix.com/in/title/81024821",
+        rating: 7.5,
+        platform: "Netflix"
+      },
+      {
+        name: "Dune",
+        image: "images/Dune.jpeg",
+        link: "https://www.hotstar.com/in/shows/dune-prophecy/1971311400?utm_source=gwa",
+        rating: 7.3,
+        platform: "Hotstar"
+      },
+      {
+        name: "Another life",
+        image: "images/Another life.jpeg",
+        link: "https://www.hotstar.com/in/shows/dune-prophecy/1971311400?utm_source=gwhttp://netflix.com/in/title/80236236?source=35",
+        rating: 5.3,
         platform: "Hotstar"
       }
     ],
     thriller: [
       {
-        name: "Mindhunter",
-        image: "images/Mind hunter.jpg",
+        name: "Mind hunter",
+        image: "images/Mind hunter.jpeg",
         link: "https://www.netflix.com/title/80114855",
         rating: 8.6,
         platform: "Netflix"
       },
       {
         name: "Ozark",
-        image: "images/Ozark.jpg",
+        image: "images/Ozark.jpeg",
         link: "https://www.netflix.com/title/80117552",
         rating: 8.5,
+        platform: "Netflix"
+      },
+      {
+        name: "Resident evil",
+        image: "images/Resident evil.jpeg",
+        link: "https://www.netflix.com/in/title/80996532?source=35",
+        rating: 4.2,
+        platform: "Netflix"
+      },
+      {
+        name: "The Walking dead",
+        image: "images/The Walking dead.jpeg",
+        link: "https://www.netflix.com/in/title/70177057?source=35",
+        rating: 7.1,
+        platform: "Prime video"
+      },
+      {
+        name: "Sweet home",
+        image: "images/Sweet home.jpeg",
+        link: "https://www.netflix.com/in/title/81061734?source=35",
+        rating: 7.2,
+        platform: "Netflix"
+      },
+      {
+        name: "Betaal",
+        image: "images/Betaal.jpeg",
+        link: "https://www.netflix.com/in/title/81061789?source=35",
+        rating: 5.4,
+        platform: "Netflix"
+      },
+      {
+        name: "The village",
+        image: "images/The village.jpeg",
+        link: "https://www.primevideo.com/dp/amzn1.dv.gti.75a21b3a-8541-4b1f-8d1b-bc857f13c411?autoplay=0&ref_=atv_cf_strg_wb",
+        rating: 5.4,
+        platform: "Prime video"
+      },
+      {
+        name: "The mist",
+        image: "images/The mist.jpeg",
+        link: "https://www.netflix.com/in/title/80135414?source=35",
+        rating: 7.1,
         platform: "Netflix"
       }
     ]
